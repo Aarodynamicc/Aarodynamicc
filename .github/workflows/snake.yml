@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: Aarodynamicc
           outputs: |
-            dist/github-snake.svg?color_snake=00c853&color_dots=ebedf0,b7f5c4,6fdc8c,2fb457,0b6b2a&color_border=c9f7d0
-            dist/github-snake-dark.svg?color_snake=00ff41&color_dots=1b3a24,0e5a2a,129b3f,00c853,00ff41&color_border=0a140c
+            dist/github-snake.svg?color_snake=%2300c853&color_dots=%23ebedf0,%23b7f5c4,%236fdc8c,%232fb457,%230b6b2a
+            dist/github-snake-dark.svg?color_snake=%2300ff41&color_dots=%231b3a24,%230e5a2a,%23129b3f,%2300c853,%2300ff41
 
       - name: Deploy to the Power Battery (output branch)
         uses: crazy-max/ghaction-github-pages@v3.1.0
