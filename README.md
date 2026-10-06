@@ -40,13 +40,13 @@ callsign:        Aarodynamicc
 corps:           Green Lantern Corps
 sector:          2814 (Earth, working remotely 🏠)
 rank:            Rookie Lantern, rising
-academy:         "[Your degree / college / year]"
+academy:         "Btech.Cse Ai / Mar Baselios College of Engineering and Technology / 2023-27"
 power_source:    Willpower
 specialties:     [Deep Learning, Computer Vision, LLMs, Cybersecurity]
-current_mission: "[current project]"
-in_training:     "[tech you're learning]"
+current_mission: "Ai Based AR assistance for Geriatric Memory Care"
+in_training:     "AR in Ai based applications"
 creed:           "i do what i should do."
-comms:           "[your email]"
+comms:           "aaronreuben777@gmail.com"
 ring_charge:     100%
 ```
 
