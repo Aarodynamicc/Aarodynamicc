@@ -40,13 +40,13 @@ callsign:        Aarodynamicc
 corps:           Green Lantern Corps
 sector:          2814 (Earth, working remotely 🏠)
 rank:            Rookie Lantern, rising
-academy:         "Btech.Cse Ai / Mar Baselios College of Engineering and Technology / 2023-27"
+academy:         Btech.Cse Ai / Mar Baselios College of Engineering and Technology / 2023-27
 power_source:    Willpower
-specialties:     [Deep Learning, Computer Vision, LLMs, Cybersecurity]
-current_mission: "Ai Based AR assistance for Geriatric Memory Care"
-in_training:     "AR in Ai based applications"
-creed:           "i do what i should do."
-comms:           "aaronreuben777@gmail.com"
+specialties:     Deep Learning, Computer Vision, LLMs, Cybersecurity
+current_mission: Ai Based AR assistance for Geriatric Memory Care
+in_training:     AR in Ai based applications
+creed:           i do what i should do.
+comms:           aaronreuben777@gmail.com
 ring_charge:     100%
 ```
 
@@ -158,14 +158,6 @@ TypeScript       [███████████░░░░░░░░░] 
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Aarodynamicc&theme=matrix&no-frame=true&no-bg=true&row=1&column=6" />
-</div>
-
----
-
-## ⚡ Energy Output (Contribution Activity)
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aarodynamicc&bg_color=0d1b0f&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00c853&hide_border=true" width="100%" />
 </div>
 
 ---
