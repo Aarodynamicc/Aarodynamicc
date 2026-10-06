@@ -1,9 +1,9 @@
-name: Generate Snake Animation
+name: Charge the Ring (Generate Snake Animation)
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # daily recharge at midnight UTC
+  workflow_dispatch:       # manual recharge
   push:
     branches: [main]
 
@@ -14,14 +14,16 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      - name: Forge the energy snake (ring construct)
+        uses: Platane/snk@v3
         with:
           github_user_name: Aarodynamicc
           outputs: |
-            dist/github-snake.svg?color_snake=00c853&color_dots=ebedf0,b7f5c4,6fdc8c,2fb457,0b6b2a
-            dist/github-snake-dark.svg?color_snake=00ff41&color_dots=161b22,0e4429,006d32,26a641,00ff41
+            dist/github-snake.svg?color_snake=00c853&color_dots=ebedf0,b7f5c4,6fdc8c,2fb457,0b6b2a&color_border=c9f7d0
+            dist/github-snake-dark.svg?color_snake=00ff41&color_dots=0d1b0f,0b3d0b,0b6b2a,00c853,00ff41&color_border=0d1b0f
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Deploy to the Power Battery (output branch)
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
